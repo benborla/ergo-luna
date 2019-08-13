@@ -1,0 +1,14 @@
+{
+    "name": "ErgoLunaAuth",
+    "alias": "ergolunaauth",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Module\\ErgoLunaAuth\\Providers\\ErgoLunaAuthServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

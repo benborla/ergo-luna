@@ -17,7 +17,7 @@ const DefinePluginConfig = new webpack.DefinePlugin({
 module.exports = {
   devServer: {
     host: 'localhost',
-    port: '9999',
+    port: '81',
     hot: true,
     headers: {
       'Access-Control-Allow-Origin': '*',

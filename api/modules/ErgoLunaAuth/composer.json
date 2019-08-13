@@ -1,0 +1,25 @@
+{
+    "name": "benborla/ergolunaauth",
+    "description": "",
+    "authors": [
+        {
+            "name": "Ben Borla",
+            "email": "benborla@icloud.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Module\\ErgoLunaAuth\\Providers\\ErgoLunaAuthServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Module\\ErgoLunaAuth\\": ""
+        }
+    }
+}
