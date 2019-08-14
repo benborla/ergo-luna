@@ -12,7 +12,7 @@ class RouteServiceProvider extends ServiceProvider
      *
      * @var string
      */
-    protected $namespace = 'Module\ErgoLunaKernel\Http\Controllers';
+    protected $namespace = '';
 
     /**
      * Called before routes are registered.

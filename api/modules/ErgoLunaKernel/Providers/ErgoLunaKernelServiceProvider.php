@@ -4,6 +4,7 @@ namespace Module\ErgoLunaKernel\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Database\Eloquent\Factory;
+use Laravel\Passport\Passport;
 
 class ErgoLunaKernelServiceProvider extends ServiceProvider
 {
@@ -26,6 +27,7 @@ class ErgoLunaKernelServiceProvider extends ServiceProvider
         $this->registerViews();
         $this->registerFactories();
         $this->loadMigrationsFrom(__DIR__ . '/../Database/Migrations');
+        Passport::routes();
     }
 
     /**
@@ -91,7 +93,7 @@ class ErgoLunaKernelServiceProvider extends ServiceProvider
 
     /**
      * Register an additional directory of factories.
-     * 
+     *
      * @return void
      */
     public function registerFactories()
